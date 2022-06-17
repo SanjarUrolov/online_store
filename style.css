@@ -30,7 +30,8 @@ main {
     width: 100%;
     height: auto;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    flex-direction:row;
     flex-wrap: wrap;
 }
 main img {
