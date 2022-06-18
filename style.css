@@ -33,6 +33,7 @@ main {
     justify-content: center;
     flex-direction:row;
     flex-wrap: wrap;
+    gap: 30px;
 }
 main img {
     width: 300px;
