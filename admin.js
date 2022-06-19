@@ -25,10 +25,10 @@ const navBurger = () => {
   
   // Barcha productlarni saqlovchi array
   let productArray = JSON.parse(localStorage.getItem('productlar')) || [
-    new Product("Iphone 13 Pro", "texnika", 1300, "yangi", ""),
-    new Product("Refrigerator", "texnika", 800, "yangi", ""),
-    new Product("Hoodie", "kiyim", 100, "eski", ""),
-    new Product("House", "uyJoy", 130000, "eski", "")  
+    // new Product("Iphone 13 Pro", "texnika", 1300, "yangi", ""),
+    // new Product("Refrigerator", "texnika", 800, "yangi", ""),
+    // new Product("Hoodie", "kiyim", 100, "eski", ""),
+    // new Product("House", "uyJoy", 130000, "eski", "")  
   ];
 
   
