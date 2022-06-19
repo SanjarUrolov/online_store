@@ -214,6 +214,14 @@ label {
     background: rgb(13, 112, 13);
 }
 
+.side-bar {
+    margin: 40px 0px 0px 25px;
+    position: fixed;
+    display: flex;
+    z-index: 5;
+    width: 250px;
+    
+}
 /*--------------------------------------*/
 .main {
     width: 78%;
@@ -224,6 +232,14 @@ label {
     margin: 100px 0 0 310px;
 }
 
+@media (max-width:867px) {
+    .main {
+        margin-top: 600px auto;
+        width: 100%;
+        position: relative;
+        margin-left: 50px;
+    }
+}
 
 .card-product {
     display: flex;
@@ -291,3 +307,4 @@ label {
     width:50px
 }
 
+  
