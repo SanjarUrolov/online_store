@@ -50,7 +50,9 @@ const navBurger = () => {
       localStorage.setItem('productlar', JSON.stringify(productArray))
       ekrangaChiqarish(productArray);
     }
+  resetForm('formId')
   }
+
   ekrangaChiqarish(productArray);
   
   function ekrangaChiqarish(arrayParam) {
@@ -87,3 +89,6 @@ const navBurger = () => {
     event.preventDefault();
   });
   
+  function resetForm(formId) {
+    document.getElementById('${formId}').reset();
+  }
