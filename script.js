@@ -26,7 +26,7 @@ document.querySelector("form").addEventListener("submit", (event) => {
   }
   cartPage();
   const adminPage=()=>{
-    const home=document.querySelector('.adminPage');
+    const home=document.getElementById('adminPage');
     home.addEventListener('click',()=>{
       window.location.href='admin.html';
     })
