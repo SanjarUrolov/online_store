@@ -25,6 +25,13 @@ document.querySelector("form").addEventListener("submit", (event) => {
     })
   }
   cartPage();
+  const adminPage=()=>{
+    const home=document.querySelector('.adminPage');
+    home.addEventListener('click',()=>{
+      window.location.href='admin.html';
+    })
+  }
+  adminPage();
   
   let i=0;
   let images=[];
