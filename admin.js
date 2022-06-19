@@ -89,6 +89,5 @@ const navBurger = () => {
     event.preventDefault();
   });
   
-  function resetForm(formId) {
     document.getElementById('${formId}').reset();
-  }
+  
