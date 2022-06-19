@@ -232,7 +232,6 @@
     border: none;
     padding-left: 8px;
     border-radius: 25px;
-    /* background: transparent; */
     border: 1px solid coral;
 }
 
@@ -253,7 +252,6 @@
     border: none;
     outline: none;
     border-radius: 25px;
-    /* border: 1px solid coral; */
     padding-left: 20px;
 }
 
@@ -288,7 +286,7 @@
     justify-content: flex-start;
     width: 200px;
     height: 310px;
-    /* border: 1px solid gray; */
+    border: 1px solid gray;
     border-radius: 5px;
     z-index: 1;
 }
@@ -314,7 +312,7 @@
     line-height: 22px;
     /* background: #d84949; */
     z-index:2;
-    /* border:2px solid red; */
+    border:2px solid red;
 }
 
 .card-content p {
