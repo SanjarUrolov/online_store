@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@1,200&family=Tapestry&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family:'Prompt';
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.10)), url(https://previews.123rf.com/images/geenday20/geenday201803/geenday20180300002/96611620-online-shopping-discount-concept-desktop-with-laptop-tablet-and-mobile-phone-shop-now-button-on-gree.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 90vh;
+}
+
+#navbar {
+    height: 60px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px 0px 100px;
+    box-shadow: 4px 4px 10px 0px gainsboro;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+#navbar .logo {
+    width: 120px;
+    height: 60px;
+}
+
+.ul {
+    display: flex;
+    list-style: none;
+    /* box-sizing: border-box; */
+}
+
+.ul li {
+    margin: 0 5px;
+}
+
+.ul li a {
+    color: green;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 60px;
+    font-size: 18px;
+    padding: 8px 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all .5s ease;
+}
+
+.ul li a:hover {
+    background: #fff;
+}
+
+.fa-shopping-cart {
+    color: #333;
+}
+
+.menu-btn {
+    color: #333;
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+}
+
+.menu-btn {
+    cursor: pointer;
+    display: none;
+}
+
+.menu-btn div {
+    height: 3px;
+    width: 25px;
+    background: #111;
+    margin: 5px;
+    transition: .5s linear;
+}
+
+.toggle .line-1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line-2 {
+    opacity: 0;
+}
+
+.toggle .line-3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
+.phone-div {
+    color:green;
+    border-left: 1px solid gray;
+    line-height: 40px;
+    padding-left: 10px;
+}
+
+.fa-phone {
+    color: orange;
+}
+
+.cart-img {
+    width: 30px;
+    height: 25px;
+    position: relative;
+    top: 5px;
+}
+
+@media (max-width:960px) {
+
+    .ul {
+        position: fixed;
+        top: 60px;
+        left: -100%;
+        background: #111;
+        height: 100vh;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* display: block; */
+        padding: 0;
+        transition: 1s;
+    }
+
+    .menu-btn {
+        display: block;
+        margin-right: -30px;
+    }
+
+    .logo {
+        margin-left: -70px;
+    }
+
+     .ul li {
+        margin: 15px 0;
+        display: block;
+    }
+
+    .ul li a {
+        font-family: 24px;
+    }
+
+    .ul li a:hover {
+        color: cyan;
+        background: none;
+        border-bottom: .5px solid;
+    }
+
+    .active {
+        left: 0;
+    }
+}
+/*----------------------------------------Navbar section end---------------------------------------------------*/
+#kategoriya {
+    width: 240px;
+    height: 35px;
+    border: none;
+    outline: none;
+    margin: 15px 0;
+}
+
+#nom{
+    width: 240px;
+    height: 35px;
+    outline: none;
+    border: none;
+}
+
+#narx {
+    width: 240px;
+    margin: 15px 0;
+    height: 35px;
+    outline: none;
+    border: none;
+}
+
+#surat {
+    width: 240px;
+    height: 35px;
+    outline: none;
+    border: none;
+    margin-bottom: 15px;
+}
+
+label {
+    margin-left: 20px;
+    color: green;
+    font-size: 18px;
+    font-weight: 700;
+}
+/*-----------------------------------------*/
+#button1 {
+    width: 240px;
+    height: 35px;
+    background: green;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    margin-top: 15px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+#button1:hover {
+    background: rgb(13, 112, 13);
+}
+
+/*--------------------------------------*/
+.main {
+    width: 78%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start;
+    margin: 100px 0 0 310px;
+}
+
+
+.card-product {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    width: 230px;
+    height: 360px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin:0 0 10px 10px;
+}
+
+.card-images {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 330px;
+    background: white;
+    margin: 10px auto;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: .6s all;
+}
+
+.card-content {
+    margin-left: 10px;
+    color:#333;
+    line-height: 25px;
+}
+
+.card-images img {
+    width: 200px;
+    height: 160px;
+    margin-bottom: 10px;
+
+}
+.card-images img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.card-product button {
+    width: 130px;
+    height: 35px;
+    background: green;
+    color: #ffffff;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 14px;
+    border: none;
+    border-radius: 3px;
+}
+
+.card-product button:hover{
+    background-color: rgb(2, 88, 2);
+    transform: scale(1.01);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+    font-weight: 500;
+}
+
+
+
+.fa-heart::first-line{
+    width:50px
+}
+
